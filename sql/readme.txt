@@ -1,0 +1,2 @@
+-Create a MySQL database called 'searchassist'
+-Import the required tables via the two SQL files in this directory.

@@ -1,0 +1,273 @@
+body {
+  background-color: #ffffff;
+  color: #000144;
+  font-family: arial, helvetica, sans-serif;
+  font-size: small-medium;
+  margin: 0px;
+  padding: 0px;
+  line-height:115%;
+}
+
+li {
+	list-style-type: none;
+}
+
+li.category {
+  background-color: #eeeeee;
+  border: 1px solid #bbbbbb;
+  padding: 4px;
+  width:254px;
+  margin-bottom:5px;
+  margin-top:8px;
+  cursor: move;
+}
+
+span.tips {
+	color: #bbbbbb;
+	font-style: italic;
+}
+
+li.bookmark {
+  cursor: move;
+}
+
+li.addCategory {
+  border: 0px solid #eeeeee;
+  padding: 4px;
+}
+
+a {
+	color: #3e30c6;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a.saveResult {
+	background-color:#fdf3d6;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: small-medium;
+}
+
+span.savedResult {
+	background-color:#e2f3e9;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: small-medium;
+}
+
+h1 {
+  font-size: medium-large;
+  color: #444555;
+  /*margin-top: 8px;*/
+}
+
+h2 {
+	font-size: medium;
+	margin: 0 0 10px 0 ;
+	color: #555666;
+}
+
+h3 {
+	font-size: medium;
+	padding: 0;
+	margin: 0;
+	color: #555666;
+}
+
+/*shortened url (results list)*/
+.shortenedUrl {
+	color: #437f49;
+	font-size:small; 
+}
+
+/*snippet text (results list)*/
+.normalText {
+	  color: #393a3a;
+
+}
+
+/*link to facet (results list)*/
+.facetText {
+	color: #919292; 
+	margin-left: 5px;
+	font-style: italic;
+	font-size:small; 
+}
+
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  text-decoration: none;
+}
+
+#results {
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  margin: 119px 260px auto;
+  padding: 12px;
+  text-align: left;
+  width: 650px;
+  font-size: 11pt;
+}
+
+#wrapper {
+  position: fixed;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 0px 260px;
+  padding: 12px;
+  text-align: left;
+  width: 650px;
+  padding-top: 6px;
+  margin-top: 0px;
+}
+
+/*did you mean...*/
+#query-corrections {
+  position: fixed;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 95px 270px;
+  padding: 12px;
+  text-align: left;
+  width: 635px;
+  height: 20px;
+  padding-top: 0px;
+  font-style: italic;
+
+}
+
+/*left panel*/
+#facets {
+  position: fixed;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 10px;
+  padding: 12px;
+  text-align: left;
+  width: 215px;
+  height: 250px;
+  font-size: small;
+  overflow-y: auto;
+}
+
+#tag-cloud {
+  position: fixed;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 300px 10px auto;
+  padding: 12px;
+  text-align: left;
+  width: 200px;
+  height: 260px;
+  font-size: small;
+  overflow-y: auto;
+}
+
+#query-suggestions {
+  position: fixed;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 570px 10px;
+  padding: 12px;
+  text-align: left;
+  width: 215px;
+  height: 200px;
+  font-size: small;
+  overflow-y: auto;
+}
+
+/*right panel*/
+#saved-results {
+  position: fixed;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 300px 950px auto;
+  padding: 12px;
+  padding-left:20px;
+  text-align: left;
+  width: 260px;
+  height: 560px;
+  overflow-y: auto;
+  font-size: small
+}
+
+#history {
+  position: fixed;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 10px 950px auto;
+  padding: 12px;
+  padding-left:20px;
+  text-align: left;
+  width: 260px;
+  height: 253px;
+  overflow-y: auto;
+  font-size: small;
+}
+
+/*#iframe {
+  position: fixed;
+  background-color: #000000;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 0px 1250px auto;
+  padding: 12px;
+  text-align: left;
+  width: 500px;
+  height: 1000px;
+  overflow: scroll;
+  font-size: small
+}*/
+
+/*#task {
+  position: fixed;
+  background-color: #FFFFFF;
+  border: 0px solid #eeeeee;
+  font-size: 95%;
+  margin: 0px 1000px auto;
+  padding: 12px;
+  text-align: left;
+  width: 225px;
+  height: 175px;
+  font-size: small
+}*/
+
+#footer {
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:30px;
+	padding-bottom:0px;
+	padding-top:10px;
+	padding-left:20px;
+	margin:0px;
+	font-size:small;
+	background-color: #e5f5fe;
+	text-align:left;
+	border: 2px solid #cccccc;
+}
