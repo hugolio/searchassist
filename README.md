@@ -3,7 +3,7 @@ by Hugo Huurdeman, 2016-02-01
 
 # description
 SearchAssist is an experimental search engine, which uses the Bing API to show a search user interface in the style of large search engines. It logs user interactions, and mouse movements, that can be easily combined with eye tracking data. It allows users to perform 'natural' search behavior, e.g. the ability to open results in multiple browser tabs. 
-SearchAssist has been used for performing a lab-based user study for the paper "Active and Passive Utility of Search Interface Features in Different Information Seeking Stages", published at CHIIR 2016. It has not yet been utilized nor optimized for online user studies.
+SearchAssist has been used for performing a lab-based user study for the paper ["Active and Passive Utility of Search Interface Features in Different Information Seeking Stages"](http://dx.doi.org/10.1145/2854946.2854957), published in the CHIIR conference proceedings 2016. It has not yet been utilized nor optimized for online user studies.
 
 SearchAssist includes various features:
 
@@ -58,3 +58,6 @@ It is possible to integrate these logs with logs captured using PyTribe (an eye 
 - this search system has only been tested on Mac OS X Yosemite 10.10.5, hence issues may arise on other systems.
 - a very minor number of query suggestions may include single quotes (e.g. "Blackbeard's ship"). When clicking on those, the results do not appear.
 - the [task] value in the system logs is 0 when uninitialized.
+
+# miscellaneous 
+- materials from the CHIIR 2016 study (procedure, questionnaires, tasks and tutorials) can be found in the /chiir-study-materials folder.
